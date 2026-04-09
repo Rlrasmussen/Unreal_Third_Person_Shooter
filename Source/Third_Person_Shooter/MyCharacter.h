@@ -14,7 +14,7 @@ class THIRD_PERSON_SHOOTER_API AMyCharacter : public ACharacter
 public:
 	
 	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "Character | Health")
-	int healt = 100;
+	int health = 100;
 	
 	// Sets default values for this character's properties
 	AMyCharacter();
